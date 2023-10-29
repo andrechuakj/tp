@@ -86,10 +86,10 @@ public class ParserUtil {
     }
 
     /**
-     * Parses a {@code String ccacommander} into an {@code Address}.
+     * Parses a {@code String address} into an {@code Address}.
      * Leading and trailing whitespaces will be trimmed.
      *
-     * @throws ParseException if the given {@code ccacommander} is invalid.
+     * @throws ParseException if the given {@code address} is invalid.
      */
     public static Address parseAddress(String address) throws ParseException {
         requireNonNull(address);

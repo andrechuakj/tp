@@ -86,10 +86,14 @@ class JsonAdaptedMember {
         if (gender == null) {
             throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, Gender.class.getSimpleName()));
         }
-        if (!Gender.isValidGender(gender)) {
+        final Gender modelGender;
+        if (gender == Gender.EMPTY_GENDER.value) {
+            modelGender = Gender.EMPTY_GENDER;
+        } else if (!Gender.isValidGender(gender)) {
             throw new IllegalValueException(Name.MESSAGE_CONSTRAINTS);
+        } else {
+            modelGender = new Gender(gender);
         }
-        final Gender modelGender = new Gender(gender);
 
         if (phone == null) {
             throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, Phone.class.getSimpleName()));

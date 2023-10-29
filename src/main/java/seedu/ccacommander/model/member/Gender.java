@@ -12,6 +12,7 @@ public class Gender {
 
     public static final String MESSAGE_CONSTRAINTS = "Gender should only be one of the following: \n"
             + "Male, Female, or Others";
+    public static final Gender EMPTY_GENDER = new Gender();
 
     public final String value;
 
@@ -25,6 +26,13 @@ public class Gender {
         requireNonNull(gender);
         checkArgument(isValidGender(gender), MESSAGE_CONSTRAINTS);
         value = gender.trim().toLowerCase();
+    }
+
+    /**
+     * Constructs an empty {@code Gender}.
+     */
+    private Gender() {
+        value = "";
     }
 
     /**

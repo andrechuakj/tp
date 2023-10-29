@@ -102,6 +102,14 @@ public class MemberBuilder {
         return this;
     }
 
+    /**
+     * Sets the {@code Gender} of the {@code Member} that we are building.
+     */
+    public MemberBuilder withGender() {
+        this.gender = Gender.EMPTY_GENDER;
+        return this;
+    }
+
     public Member build() {
         return new Member(name, gender, phone, email, address, tags);
     }

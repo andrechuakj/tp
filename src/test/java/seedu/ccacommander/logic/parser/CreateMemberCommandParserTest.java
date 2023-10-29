@@ -151,10 +151,16 @@ public class CreateMemberCommandParserTest {
     @Test
     public void parse_optionalFieldsMissing_success() {
         // zero tags
-        Member expectedMember = new MemberBuilder(AMY).withTags().build();
+        Member expectedMemberNoTags = new MemberBuilder(AMY).withTags().build();
         assertParseSuccess(parser, NAME_DESC_AMY + GENDER_DESC_AMY + PHONE_DESC_AMY
                         + EMAIL_DESC_AMY + ADDRESS_DESC_AMY,
-                new CreateMemberCommand(expectedMember));
+                new CreateMemberCommand(expectedMemberNoTags));
+
+        // no gender
+        Member expectedMemberNoGender = new MemberBuilder(AMY).withGender().build();
+        assertParseSuccess(parser, NAME_DESC_AMY + PHONE_DESC_AMY
+                        + EMAIL_DESC_AMY + ADDRESS_DESC_AMY + TAG_DESC_FRIEND,
+                new CreateMemberCommand(expectedMemberNoGender));
     }
 
     @Test
