@@ -175,7 +175,7 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 * Some fields of certain commands have constraints on the acceptable inputs. <br>
   You can refer to the [List of Acceptable Values](#list-of-acceptable-values) section below for more details.
 
-* Extraneous fields for commands that do not take in fields (such as `help`, `list`, `exit` and `clear`) will be ignored.<br>
+* Unnecessary fields for commands that do not take in fields (such as `help`, `list`, `exit` and `clear`) will be ignored.<br>
   E.g. if the command specifies `help 123`, it will be interpreted as `help`.
 
 * If you are using a PDF version of this document, be careful when copying and pasting commands that span multiple lines as space characters surrounding line-breaks may be omitted when copied over to the application.
@@ -258,10 +258,10 @@ Creating a new event is no longer a hassle as it can be done with just one simpl
 Here's how you can use it:<br>
 `createEvent n/EVENT_NAME l/LOCATION d/DATE [t/TAG]...`
 
-Here is an example command where we create an event **named** "Party" held at the **location** "Raffles Hall" on the
-**date** 2023-09-16, with **tag** "Dinner" and **tag** "Sem1":
+Here is an example command where we create an event **named** "Exco Planning" held at the **location** "Planning Room" on the
+**date** 2023-12-10, with **tag** "Sem1":
 
-`createEvent n/Party l/Raffles Hall d/2023-09-16 t/Dinner t/Sem1`
+`createEvent n/Exco Planning l/Planning Room d/2023-12-10 t/Sem1`
 
 <figure>
     <img src="images/CreateEventPostCommand.png"
