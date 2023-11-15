@@ -2,7 +2,6 @@
 layout: page
 ---
 <link rel="stylesheet" href="./assets/css/guide.css">
-<a id="top"></a>
 <br>
 <br>
 <br>
@@ -35,9 +34,9 @@ layout: page
 
 ## Introduction
 As a Co-curricular Activity (CCA) head, do you find yourself struggling to manage your CCA members’ enrolments to various events and record the list of events that your CCA has?
-Are the heaps of spreadsheets you are using to manage them making you feel overwhelmed? Well, fear not, **CCACommander Ultra Promax Xtra 9000PLUS** is here to save the day!
+Are the heaps of spreadsheets you are using to organise your members making you feel overwhelmed? Well, fear not, **CCACommander Ultra Promax Xtra 9000PLUS** is here to save the day!
 
-CCACommander is a desktop application that helps CCA leaders record details of their members and events, whilst tracking every member’s enrolments. 
+CCACommander is a desktop application **targeted towards CCA leaders** to help them record details of their members and events, whilst tracking every member’s enrolments. 
 It helps to organise members and events into easy-to-view compartments under a singular [Graphical User Interface (GUI)](https://blog.hubspot.com/website/what-is-gui) while providing granular control to you via its in-built [Command Line Interface (CLI)](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI). 
 If you can type quickly, CCACommander can help you complete your administrative tasks much more efficiently than traditional GUI applications.
 
@@ -70,7 +69,7 @@ This guide uses the following features to make it easier for you to navigate aro
 
 </div>
 
-1. Ensure you have Java `11` installed on your computer by following [this guide](https://phoenixnap.com/kb/check-java-version-on-mac-windows).
+1. Ensure you have Java `11` installed on your computer (Windows and macOS) by following [this guide](https://phoenixnap.com/kb/check-java-version-on-mac-windows).
 
 2. Download the latest `ccacommander.jar` from [here](https://github.com/AY2324S1-CS2103T-F11-1/tp/releases).
 
@@ -103,7 +102,7 @@ This guide uses the following features to make it easier for you to navigate aro
 
 --------------------------------------------------------------------------------------------------------------------
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -121,7 +120,7 @@ Here are the important components of CCACommander that you will use and interact
     <figure>
         <img src="images/light_dark_theme.png"
              alt="Light and dark themes"
-             style="margin-top:10px; max-width: 90%">
+             style="margin-top:10px; max-width: 80%">
         <figcaption>Fig 3: Light and dark theme</figcaption>
    </figure>
 3. Help: Access our user guide
@@ -150,7 +149,7 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 
 --------------------------------------------------------------------------------------------------------------------
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -163,10 +162,10 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 * Words in `UPPER_CASE` are the fields to be supplied by the user.<br>
   E.g. in `createMember n/NAME`, `NAME` is a field which can be used as `createMember n/John Doe`.
 
-* Items in square brackets are optional.<br>
+* Fields in square brackets are optional.<br>
   E.g. `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`.
 
-* Items with `…`​ after them can be used multiple times including zero times.<br>
+* Fields with `…`​ after them can be used multiple times including zero times.<br>
   E.g. `[t/TAG]…​` can be used as ` ` (i.e. 0 times), `t/friend`, `t/friend t/family` etc.
 
 * Fields can be in any given order.<br>
@@ -183,7 +182,7 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -243,7 +242,7 @@ Here is an example command where we delete the member at **index** 1:
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -307,7 +306,7 @@ Here is an example command where we delete the event at **index** 1:
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -363,7 +362,7 @@ Here is an example command where we unenrol the member at **member index** 1 fro
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -378,7 +377,7 @@ If you want to view the events in which a particular member is enrolled to, you 
 Here’s how you can use it:<br>
 `viewMember MEMBER_INDEX`
 
-Here is an example command where we want to view the events in which the **member** at index 3 in our member list is enrolled to:
+Here is an example command where we want to view the events in which the member at **index** 3 in our member list is enrolled to:
 
 `viewMember 3`
 
@@ -403,7 +402,7 @@ If you want to view the members which a particular event has, you can do so via 
 Here’s how you can use it:<br>
 `viewEvent EVENT_INDEX`
 
-Here is an example command where we want to view the members that the **event** at index 1 of our event list has:
+Here is an example command where we want to view the members that the event at **index** 1 of our event list has:
 
 `viewEvent 1`
 
@@ -431,13 +430,12 @@ Do you want to find multiple members? Fear not as you can simply add more names 
 Here’s how you can use it:<br>
 `findMember MEMBER_NAME [MORE_NAMES]...`
 
-Here is an example command where we find all members with the names of "Anthony" and "Nicholas":
+Here is an example command where we find all members with the **names** of "Anthony" and "Nicholas":
 
 `findMember anthony nicholas`
 
 <div markdown="block" class="alert alert-info">:information_source:
-The `findMember` command requires the names to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
-The names do not have to be capitalised too! 
+The `findMember` command does not require the names to be capitalised. However, the names have to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
 </div>
 
 <hr class="command-separator">
@@ -449,16 +447,16 @@ Similar to `findMember`, `findEvent` allows you to instantly find your event amo
 Here’s how you can use it:<br>
 `findEvent EVENT_NAME [MORE_NAMES]...`
 
-Here is an example command where we find all events with the event name of "Party":
+Here is an example command where we find all events with the **name** of "Party":
 
 `findEvent party`
 
 <div markdown="block" class="alert alert-info">:information_source:
-Like the `findMember` command, `findEvent` requires the names to be typed in full and the names do not have to be capitalised! 
+Like the `findMember` command, `findEvent` does not require the names to be capitalised, but they have to be typed in full!
 </div>
 <div markdown="block" class="alert alert-primary">:bulb:
-The find commands (`findMember`/`findEvent`)  are powerful tools to help you work faster. Want to view the enrolment of Nicholas, but you don’t 
-want to scroll the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that.
+The `findMember` and `findEvent` commands are powerful tools to help you work faster. Want to view the enrolments of "Nicholas", but don’t 
+want to scroll through the member list? Use the `findMember` command then follow it with the `viewMember` command to achieve that.
 </div>
 <hr class="command-separator">
 
@@ -470,7 +468,7 @@ Here’s how you use it: <br>
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -557,7 +555,7 @@ CCACommander data are saved automatically after any command that changes the dat
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 
 ## FAQ
@@ -616,7 +614,7 @@ Action | Format, Examples
 [**Help**](#help-help) | `help`
 [**Exit**](#exit-exit) | `exit`
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -704,4 +702,4 @@ Action | Format, Examples
 </tbody>
 </table>
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
