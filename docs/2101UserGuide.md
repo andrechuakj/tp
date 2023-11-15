@@ -457,7 +457,7 @@ Here is an example command where we find all events with the event name of "Part
 Like the `findMember` command, `findEvent` requires the names to be typed in full and the names do not have to be capitalised! 
 </div>
 <div markdown="block" class="alert alert-primary">:bulb:
-The find commands (`findMember`/`findEvent`)  are powerful tools to help you work faster. Want to view the enrolment of Nicholas, but you don’t 
+The find commands (`findMember`/`findEvent`)  are powerful tools to help you work faster. Want to view the enrolment of "Nicholas", but you don’t 
 want to scroll the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that.
 </div>
 <hr class="command-separator">
