@@ -34,7 +34,7 @@ layout: page
 
 ## Introduction
 As a Co-curricular Activity (CCA) head, do you find yourself struggling to manage your CCA members’ enrolments to various events and record the list of events that your CCA has?
-Are the heaps of spreadsheets you are using to manage them making you feel overwhelmed? Well, fear not, **CCACommander Ultra Promax Xtra 9000PLUS** is here to save the day!
+Are the heaps of spreadsheets you are using to organise your members making you feel overwhelmed? Well, fear not, **CCACommander Ultra Promax Xtra 9000PLUS** is here to save the day!
 
 CCACommander is a desktop application **targeted towards CCA leaders** to help them record details of their members and events, whilst tracking every member’s enrolments. 
 It helps to organise members and events into easy-to-view compartments under a singular [Graphical User Interface (GUI)](https://blog.hubspot.com/website/what-is-gui) while providing granular control to you via its in-built [Command Line Interface (CLI)](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI). 
@@ -455,8 +455,8 @@ Here is an example command where we find all events with the **name** of "Party"
 Like the `findMember` command, `findEvent` does not require the names to be capitalised, but they have to be typed in full!
 </div>
 <div markdown="block" class="alert alert-primary">:bulb:
-The `findMember` and `findEvent` commands are powerful tools to help you work faster. Want to view the enrolment of "Nicholas", but you don’t 
-want to scroll the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that.
+The `findMember` and `findEvent` commands are powerful tools to help you work faster. Want to view the enrolments of "Nicholas", but don’t 
+want to scroll through the member list? Use the `findMember` command then follow it with the `viewMember` command to achieve that.
 </div>
 <hr class="command-separator">
 
