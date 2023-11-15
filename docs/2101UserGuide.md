@@ -121,7 +121,7 @@ Here are the important components of CCACommander that you will use and interact
     <figure>
         <img src="images/light_dark_theme.png"
              alt="Light and dark themes"
-             style="margin-top:10px; max-width: 90%">
+             style="margin-top:10px; max-width: 80%">
         <figcaption>Fig 3: Light and dark theme</figcaption>
    </figure>
 3. Help: Access our user guide
