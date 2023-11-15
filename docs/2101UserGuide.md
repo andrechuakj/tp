@@ -436,8 +436,7 @@ Here is an example command where we find all members with the names of "Anthony"
 `findMember anthony nicholas`
 
 <div markdown="block" class="alert alert-info">:information_source:
-The `findMember` command requires the names to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
-The names do not have to be capitalised too! 
+The `findMember` command does not require the names to be capitalised. However, the names have to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
 </div>
 
 <hr class="command-separator">
@@ -454,10 +453,10 @@ Here is an example command where we find all events with the event name of "Part
 `findEvent party`
 
 <div markdown="block" class="alert alert-info">:information_source:
-Like the `findMember` command, `findEvent` requires the names to be typed in full and the names do not have to be capitalised! 
+Like the `findMember` command, `findEvent` does not require the names to be capitalised, but they have to be typed in full!
 </div>
 <div markdown="block" class="alert alert-primary">:bulb:
-The find commands (`findMember`/`findEvent`)  are powerful tools to help you work faster. Want to view the enrolment of "Nicholas", but you don’t 
+The `findMember` and `findEvent` commands are powerful tools to help you work faster. Want to view the enrolment of "Nicholas", but you don’t 
 want to scroll the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that.
 </div>
 <hr class="command-separator">
