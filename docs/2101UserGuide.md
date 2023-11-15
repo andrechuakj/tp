@@ -435,11 +435,16 @@ Here is an example command where we find all members with the names of "Anthony"
 
 `findMember anthony nicholas`
 
+<div markdown="block" class="alert alert-info">:information_source:
+The `findMember` command requires the names to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
+The names do not have to be capitalised too! 
+</div>
+
 <hr class="command-separator">
 
 #### Find Event in event list: `findEvent`
 
-Similar to `findMember`, `findEvent` allows you to instantly find your event among your multiple events.
+Similar to `findMember`, `findEvent` allows you to instantly find your event among your multiple events. You can add more names one after another too!
 
 Here’s how you can use it:<br>
 `findEvent EVENT_NAME [MORE_NAMES]...`
@@ -449,8 +454,7 @@ Here is an example command where we find all events with the event name of "Part
 `findEvent party`
 
 <div markdown="block" class="alert alert-info">:information_source:
-The find commands require the names to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
-The names do not have to be capitalised too! 
+Like `findMember`, the `findEvent` command requires the names to be typed in full and do not have to be capitalised too! 
 </div>
 
 <div markdown="block" class="alert alert-primary">:bulb:
