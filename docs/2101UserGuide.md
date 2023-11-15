@@ -455,7 +455,7 @@ The names do not have to be capitalised too!
 
 <div markdown="block" class="alert alert-primary">:bulb:
 The find commands are powerful tools to help you work faster. Want to view the attendance of Nicholas, but you don’t 
-want to scroll through the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that. 
+want to scroll through the member list? Use the `findMember` command then follow it with the `viewMember` command to achieve that. 
 This is applicable for both members and events!
 </div>
 
