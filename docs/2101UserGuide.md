@@ -160,8 +160,8 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 
 **:information_source: Notes about the command format:**<br>
 
-* Words in `UPPER_CASE` are the parameters to be supplied by the user.<br>
-  E.g. in `createMember n/NAME`, `NAME` is a parameter which can be used as `createMember n/John Doe`.
+* Words in `UPPER_CASE` are the fields to be supplied by the user.<br>
+  E.g. in `createMember n/NAME`, `NAME` is a field which can be used as `createMember n/John Doe`.
 
 * Items in square brackets are optional.<br>
   E.g. `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`.
@@ -169,13 +169,13 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 * Items with `…`​ after them can be used multiple times including zero times.<br>
   E.g. `[t/TAG]…​` can be used as ` ` (i.e. 0 times), `t/friend`, `t/friend t/family` etc.
 
-* Parameters can be in any given order.<br>
+* Fields can be in any given order.<br>
   E.g. if the command specifies `n/NAME p/PHONE_NUMBER`, `p/PHONE_NUMBER n/NAME` is also acceptable.
 
-* Some parameters of certain commands have constraints on the acceptable inputs. <br>
+* Some fields of certain commands have constraints on the acceptable inputs. <br>
   You can refer to the [List of Acceptable Values](#list-of-acceptable-values) section below for more details.
 
-* Extraneous parameters for commands that do not take in parameters (such as `help`, `list`, `exit` and `clear`) will be ignored.<br>
+* Extraneous fields for commands that do not take in fields (such as `help`, `list`, `exit` and `clear`) will be ignored.<br>
   E.g. if the command specifies `help 123`, it will be interpreted as `help`.
 
 * If you are using a PDF version of this document, be careful when copying and pasting commands that span multiple lines as space characters surrounding line-breaks may be omitted when copied over to the application.
@@ -238,7 +238,7 @@ Here is an example command where we delete the member at **index** 1:
 `deleteMember 1`
 
 <div markdown="block" class="alert alert-info">
-:information_source: The `MEMBER_INDEX` parameter refers to the index number shown in the **currently displayed** member list.
+:information_source: The `MEMBER_INDEX` field refers to the index number shown in the **currently displayed** member list.
 </div>
 
 <hr class="feature-class-separator">
@@ -302,7 +302,7 @@ Here is an example command where we delete the event at **index** 1:
 
 `deleteEvent 1`
 
-<div markdown="block" class="alert alert-info">:information_source: The `EVENT_INDEX` parameter refers to the index number shown in the **currently displayed** event list.
+<div markdown="block" class="alert alert-info">:information_source: The `EVENT_INDEX` field refers to the index number shown in the **currently displayed** event list.
 </div>
 
 <hr class="feature-class-separator">
@@ -358,7 +358,7 @@ Here is an example command where we unenrol the member at **member index** 1 fro
 
 `unenrol m/1 e/1`
 
-<div markdown="block" class="alert alert-info">:information_source: The `MEMBER_INDEX`/`EVENT_INDEX` parameter refers to the index number shown in the **currently displayed** member/event list.
+<div markdown="block" class="alert alert-info">:information_source: The `MEMBER_INDEX`/`EVENT_INDEX` field refers to the index number shown in the **currently displayed** member/event list.
 </div>
 
 <hr class="feature-class-separator">
