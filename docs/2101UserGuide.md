@@ -34,10 +34,10 @@ layout: page
 <div style="page-break-after: always;"></div>
 
 ## Introduction
-As a Co-curricular Activity (CCA) head, do you find yourself struggling to manage your CCA members’ attendances and record the array of events that your CCA has?
-Are the heaps of spreadsheets you are using to organise your members making you feel overwhelmed? Well, fear not, **CCACommander Ultra Promax Xtra 9000PLUS** is here to save the day!
+As a Co-curricular Activity (CCA) head, do you find yourself struggling to manage your CCA members’ enrolments to various events and record the list of events that your CCA has?
+Are the heaps of spreadsheets you are using to manage them making you feel overwhelmed? Well, fear not, **CCACommander Ultra Promax Xtra 9000PLUS** is here to save the day!
 
-CCACommander is a desktop application that helps CCA leaders record details of their members and events, whilst tracking every member’s attendance. 
+CCACommander is a desktop application that helps CCA leaders record details of their members and events, whilst tracking every member’s enrolments. 
 It helps to organise members and events into easy-to-view compartments under a singular [Graphical User Interface (GUI)](https://blog.hubspot.com/website/what-is-gui) while providing granular control to you via its in-built [Command Line Interface (CLI)](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI). 
 If you can type quickly, CCACommander can help you complete your administrative tasks much more efficiently than traditional GUI applications.
 
@@ -423,7 +423,7 @@ Here is an example command where we want to view the members that the **event** 
 
 #### Find Member in member list: `findMember`
 
-If your CCA contains many members and you don’t want to scroll past tens or hundreds of members, you can use the 
+If your CCA contains many members, and you don’t want to scroll past tens or hundreds of members, you can use the 
 `findMember` command to instantly filter a list of members with a matching name.
 
 Do you want to find multiple members? Fear not as you can simply add more names one after another.
@@ -435,11 +435,16 @@ Here is an example command where we find all members with the names of "Anthony"
 
 `findMember anthony nicholas`
 
+<div markdown="block" class="alert alert-info">:information_source:
+The `findMember` command requires the names to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
+The names do not have to be capitalised too! 
+</div>
+
 <hr class="command-separator">
 
 #### Find Event in event list: `findEvent`
 
-Similar to `findMember`, `findEvent` allows you to instantly find your event among your multiple events.
+Similar to `findMember`, `findEvent` allows you to instantly find your event among your multiple events. You can add more names one after another too!
 
 Here’s how you can use it:<br>
 `findEvent EVENT_NAME [MORE_NAMES]...`
@@ -449,16 +454,12 @@ Here is an example command where we find all events with the event name of "Part
 `findEvent party`
 
 <div markdown="block" class="alert alert-info">:information_source:
-The find commands require the names to be typed in full, meaning "Nich" will not suffice for finding "Nicholas". 
-The names do not have to be capitalised too! 
+Like the `findMember` command, `findEvent` requires the names to be typed in full and the names do not have to be capitalised! 
 </div>
-
 <div markdown="block" class="alert alert-primary">:bulb:
-The find commands are powerful tools to help you work faster. Want to view the attendance of Nicholas, but you don’t 
-want to scroll through the member list? Use the `findMember` command then follow it with the `viewMember` command to achieve that. 
-This is applicable for both members and events!
+The find commands (`findMember`/`findEvent`)  are powerful tools to help you work faster. Want to view the enrolment of Nicholas, but you don’t 
+want to scroll the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that.
 </div>
-
 <hr class="command-separator">
 
 #### List all Members and all Events: `list`
