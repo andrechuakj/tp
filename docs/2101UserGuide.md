@@ -2,7 +2,6 @@
 layout: page
 ---
 <link rel="stylesheet" href="./assets/css/guide.css">
-<a id="top"></a>
 <br>
 <br>
 <br>
@@ -103,7 +102,7 @@ This guide uses the following features to make it easier for you to navigate aro
 
 --------------------------------------------------------------------------------------------------------------------
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -150,7 +149,7 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 
 --------------------------------------------------------------------------------------------------------------------
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -183,7 +182,7 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -243,7 +242,7 @@ Here is an example command where we delete the member at **index** 1:
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -307,7 +306,7 @@ Here is an example command where we delete the event at **index** 1:
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -363,7 +362,7 @@ Here is an example command where we unenrol the member at **member index** 1 fro
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -431,7 +430,7 @@ Do you want to find multiple members? Fear not as you can simply add more names 
 Here’s how you can use it:<br>
 `findMember MEMBER_NAME [MORE_NAMES]...`
 
-Here is an example command where we find all members with the names of "Anthony" and "Nicholas":
+Here is an example command where we find all members with the **names** of "Anthony" and "Nicholas":
 
 `findMember anthony nicholas`
 
@@ -448,7 +447,7 @@ Similar to `findMember`, `findEvent` allows you to instantly find your event amo
 Here’s how you can use it:<br>
 `findEvent EVENT_NAME [MORE_NAMES]...`
 
-Here is an example command where we find all events with the event name of "Party":
+Here is an example command where we find all events with the **name** of "Party":
 
 `findEvent party`
 
@@ -469,7 +468,7 @@ Here’s how you use it: <br>
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -556,7 +555,7 @@ CCACommander data are saved automatically after any command that changes the dat
 
 <hr class="feature-class-separator">
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 
 ## FAQ
@@ -615,7 +614,7 @@ Action | Format, Examples
 [**Help**](#help-help) | `help`
 [**Exit**](#exit-exit) | `exit`
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
 
 <div style="page-break-after: always;"></div>
 
@@ -703,4 +702,4 @@ Action | Format, Examples
 </tbody>
 </table>
 
-> [Back to top](#top)
+> [Back to top](#table-of-contents)
