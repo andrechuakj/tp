@@ -317,7 +317,7 @@ Enrolments are a way for you to manage your members’ involvements in your even
 
 #### Enrol a Member to an Event: `enrol`
 
-Now that you have added all your members and all your events, keeping track of your members’ attendance at any event is as simple as using the `enrol` command!
+Now that you have added all your members and all your events, keeping track of your members’ enrolment to any event is as simple as using the `enrol` command!
 
 Here’s how you can use it:<br>
 `enrol m/MEMBER_INDEX e/EVENT_INDEX [h/NUMBER_OF_HOURS] [r/REMARK]`
