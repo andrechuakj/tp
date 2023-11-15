@@ -70,7 +70,7 @@ This guide uses the following features to make it easier for you to navigate aro
 
 </div>
 
-1. Ensure you have Java `11` installed in your computer by following [this guide](https://phoenixnap.com/kb/check-java-version-on-mac-windows).
+1. Ensure you have Java `11` installed on your computer by following [this guide](https://phoenixnap.com/kb/check-java-version-on-mac-windows).
 
 2. Download the latest `ccacommander.jar` from [here](https://github.com/AY2324S1-CS2103T-F11-1/tp/releases).
 
@@ -137,12 +137,12 @@ You can quickly recall previously entered commands for convenience as CCACommand
 
 Upon selecting the command box, you can use the <kbd>↑</kbd> to <kbd>↓</kbd> key to navigate through the commands entered.
 
-Example:
+Example use case:
 1. You have just marked attendance for the first member in the member list using the `editEnrolment m/1 e/1 r/Present` command.
 2. You can then use <kbd>↑</kbd> to get `editEnrolment m/1 e/1 r/Present`
-3. You can edit the member index to get `editEnrolment m/2 e/1 r/Present` to mark the second member as present.
+3. You edit the member index to get `editEnrolment m/2 e/1 r/Present` to mark the second member as present.
 
-<div markdown="block" class="alert alert-info">:information_source: CCACommander will not store 2 of the same commands if they were entered twice in a row. Likewise, commands containing exclusively of blank spaces will not be stored as well.
+<div markdown="block" class="alert alert-info">:information_source: CCACommander will not store 2 of the same commands if they are entered twice in a row. Likewise, commands containing exclusively blank spaces will not be stored as well.
 
 Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, users will have to re-navigate from the most recent command as it will be treated as an edit or entry of command.
 </div>
@@ -259,7 +259,7 @@ Here's how you can use it:<br>
 `createEvent n/EVENT_NAME l/LOCATION d/DATE [t/TAG]...`
 
 Here is an example command where we create an event **named** "Exco Planning" held at the **location** "Planning Room" on the
-**date** 2023-12-10, with **tag** "Sem1":
+**date** 2023-12-10, with a **tag** of "Sem1":
 
 `createEvent n/Exco Planning l/Planning Room d/2023-12-10 t/Sem1`
 
@@ -369,7 +369,7 @@ Here is an example command where we unenrol the member at **member index** 1 fro
 
 ### View Commands
 In CCACommander, you can quickly change the view to fit your current use case, be it to check for the enrolment of an event, 
-searching for a member and more!
+search for a member and more!
 
 #### View Events of Member: `viewMember`
 
@@ -465,7 +465,8 @@ want to scroll the member list? Use the `findMember` then follow it with the `vi
 #### List all Members and all Events: `list`
 If you’re in the event/member view, you can always use the `list` command to return to the default view with all members and events.
 
-Here’s how you use it: `list`
+Here’s how you use it: <br>
+`list`
 
 <hr class="feature-class-separator">
 
