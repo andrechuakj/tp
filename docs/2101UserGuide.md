@@ -378,7 +378,7 @@ If you want to view the events in which a particular member is enrolled to, you 
 Here’s how you can use it:<br>
 `viewMember MEMBER_INDEX`
 
-Here is an example command where we want to view the events in which the **member** at index 3 in our member list is enrolled to:
+Here is an example command where we want to view the events in which the member at **index** 3 in our member list is enrolled to:
 
 `viewMember 3`
 
@@ -403,7 +403,7 @@ If you want to view the members which a particular event has, you can do so via 
 Here’s how you can use it:<br>
 `viewEvent EVENT_INDEX`
 
-Here is an example command where we want to view the members that the **event** at index 1 of our event list has:
+Here is an example command where we want to view the members that the event at **index** 1 of our event list has:
 
 `viewEvent 1`
 
