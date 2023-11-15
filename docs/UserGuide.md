@@ -1,5 +1,6 @@
 ---
 layout: page
+title: User Guide
 ---
 <link rel="stylesheet" href="./assets/css/guide.css">
 <a id="top"></a>
@@ -320,6 +321,8 @@ Examples:
 #### Edit an Enrolment: `editEnrolment`
 * Edits the specified `MEMBER_INDEX`'s enrolment of the event at the specified `EVENT_INDEX` with `NUMBER_OF_HOURS` specifying the number of hours that the member contributed and `REMARK` stating extra remarks about the member and event.
 
+Format: `editEnrolment m/MEMBER_INDEX e/EVENT_INDEX [h/NUMBER_OF_HOURS] [r/REMARK]
+`
 <div markdown="block" class="alert alert-info">
 :information_source: Remember to provide at least one field to be edited!
 </div>
@@ -434,6 +437,8 @@ Format: `findEvent EVENT_NAME [MORE_NAMES]...`
 * Finds and lists event(s) which name(s) contain the specified `EVENT_NAME`.
 * More than 1 `EVENT_NAME` can be provided to find more events.
 
+<div style="page-break-after: always;"></div>
+
 Examples:
 * `findEvent party` displays the event(s) which name(s) contain 'party'
 * `findEvent party marathon gaming` displays the event(s) which name(s) contain "party", "marathon" and/or "gaming".
@@ -537,6 +542,7 @@ If your changes to the data file makes its format invalid, CCACommander will dis
 > [Back to top](#top)
 
 <div style="page-break-after: always;"></div>
+
 ## FAQ
 
 **Q**: How do I transfer my data to another computer?<br>

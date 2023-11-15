@@ -22,7 +22,6 @@ Given below is a summary of my contributions to the project. All of my code cont
 * **Edit Enrolment Feature** [#178](https://github.com/AY2324S1-CS2103T-F11-1/tp/pull/178)
     * **Feature details:** Allows the user of CCACommander to edit the details of a specific member's enrolment to an event.
     * **Justifications:** Gives the user the ability to correct any mistakes in the details of the enrolment, or add more information.
-<div style="page-break-after: always;"></div>
 
 ### Enhancements to existing features
 * Convert `Name` to a class shared by `Member` and `Event` [#109](https://github.com/AY2324S1-CS2103T-F11-1/tp/pull/109)
