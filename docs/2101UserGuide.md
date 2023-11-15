@@ -34,10 +34,10 @@ layout: page
 <div style="page-break-after: always;"></div>
 
 ## Introduction
-As a Co-curricular Activity (CCA) head, do you find yourself struggling to manage your CCA members’ enrolments and record the array of events that your CCA has?
+As a Co-curricular Activity (CCA) head, do you find yourself struggling to manage your CCA members’ enrolments to various events and record the list of events that your CCA has?
 Are the heaps of spreadsheets you are using to manage them making you feel overwhelmed? Well, fear not, **CCACommander Ultra Promax Xtra 9000PLUS** is here to save the day!
 
-CCACommander is a desktop application that helps CCA leaders record details of their members and events, whilst tracking every member’s enrolment. 
+CCACommander is a desktop application that helps CCA leaders record details of their members and events, whilst tracking every member’s enrolments. 
 It helps to organise members and events into easy-to-view compartments under a singular [Graphical User Interface (GUI)](https://blog.hubspot.com/website/what-is-gui) while providing granular control to you via its in-built [Command Line Interface (CLI)](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI). 
 If you can type quickly, CCACommander can help you complete your administrative tasks much more efficiently than traditional GUI applications.
 
@@ -440,19 +440,11 @@ The `findMember` command requires the names to be typed in full, meaning "Nich" 
 The names do not have to be capitalised too! 
 </div>
 
-<div markdown="block" class="alert alert-primary">:bulb:
-The find commands are powerful tools to help you work faster. Want to view the enrolment of Nicholas, but you don’t 
-want to scroll the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that. 
-
-**This is applicable for both members and events**
-
-</div>
-
 <hr class="command-separator">
 
 #### Find Event in event list: `findEvent`
 
-Similar to `findMember`, `findEvent` allows you to instantly find your event among your multiple events.
+Similar to `findMember`, `findEvent` allows you to instantly find your event among your multiple events. You can add more names one after another too!
 
 Here’s how you can use it:<br>
 `findEvent EVENT_NAME [MORE_NAMES]...`
@@ -464,7 +456,10 @@ Here is an example command where we find all events with the event name of "Part
 <div markdown="block" class="alert alert-info">:information_source:
 Like the `findMember` command, `findEvent` requires the names to be typed in full and the names do not have to be capitalised! 
 </div>
-
+<div markdown="block" class="alert alert-primary">:bulb:
+The find commands (`findMember`/`findEvent`)  are powerful tools to help you work faster. Want to view the enrolment of Nicholas, but you don’t 
+want to scroll the member list? Use the `findMember` then follow it with the `viewMember` command to achieve that.
+</div>
 <hr class="command-separator">
 
 #### List all Members and all Events: `list`
