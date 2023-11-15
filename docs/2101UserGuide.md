@@ -163,10 +163,10 @@ Upon entering the <kbd>⌫ Backspace</kbd> or the <kbd>↵ Enter</kbd> key, user
 * Words in `UPPER_CASE` are the fields to be supplied by the user.<br>
   E.g. in `createMember n/NAME`, `NAME` is a field which can be used as `createMember n/John Doe`.
 
-* Items in square brackets are optional.<br>
+* Fields in square brackets are optional.<br>
   E.g. `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`.
 
-* Items with `…`​ after them can be used multiple times including zero times.<br>
+* Fields with `…`​ after them can be used multiple times including zero times.<br>
   E.g. `[t/TAG]…​` can be used as ` ` (i.e. 0 times), `t/friend`, `t/friend t/family` etc.
 
 * Fields can be in any given order.<br>
